@@ -25,7 +25,7 @@
 "title": "Pukkelpop",
 "description": "Festival Rock",
 "location": "Hasselt",
-"date": "July 22 2021",
+"data": "July 22 2021",
 "time": "09:00",
 "imagePath": "pukkelpop.png"
 },
@@ -35,7 +35,7 @@
 "title": "Graspop",
 "description": "Festival Rock",
 "location": "Dessel",
-"date": "July 04 2021",
+"data": "July 04 2021",
 "time": "09:00",
 "imagePath": "graspop.png"
 }
