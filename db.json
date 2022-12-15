@@ -1,46 +1,24 @@
 {"events": [
-{
-"id": 1,
-"category": "concert",
-"title": "Tomorrow Land",
-"description": "Festival op De schorre",
-"location": "Boom",
-"data": "July 16 & 17, 2021",
-"time": "09:00",
-"imagePath": "tommorow.png",
- "Parking": [{
-   "id": 1,
-   "parkingnaam": "p1",
-   "parkingplaats": 200
- },
-   {
-     "id": 2,
-     "parkingnaam": "p2",
-     "parkingplaats": 300
-   },
-   {
-     "id": 3,
-     "parkingnaam": "p3",
-     "parkingplaats": 150
-   }
- ],
-  "Food": [{
+  {
     "id": 1,
-    "cuisine" : "italian"
+    "category": "concert",
+    "title": "Tomorrow Land",
+    "description": "Festival op De schorre",
+    "location": "Boom",
+    "data": "July 16 & 17, 2021",
+    "time": "09:00",
+    "imagePath": "tommorow.png",
+    "facilities": [
+      {
+        "parking": true,
+        "food": true,
+        "wc": true,
+        "camping": true,
+        "kidsplace": true,
+        "disco": true
+      }
+    ]
   },
-    {
-      "id": 2,
-      "cuisine" : "american"
-    },
-    {
-      "id": 3,
-      "cuisine" : "mediterraan"
-    },
-    {
-      "id": 4,
-      "cusine" : "chinisse"
-    }
-  ],
 {
 "id": 2,
 "category": "concert",
@@ -49,7 +27,16 @@
 "location": "Werchter",
 "data": "July 4, 2021",
 "time": "09:00",
-"imagePath": "festival.png"
+"imagePath": "festival.png",
+  "facilities": [
+    {
+      "parking": false,
+      "food": true,
+      "wc": true,
+      "camping": false,
+      "kidsplace": false,
+      "disco": true
+    }]
 },
 {
 "id": 3,
@@ -59,7 +46,16 @@
 "location": "Hasselt",
 "data": "July 22 2021",
 "time": "09:00",
-"imagePath": "pukkelpop.png"
+"imagePath": "pukkelpop.png",
+  "facilities": [
+    {
+      "parking": false,
+      "food": true,
+      "wc": false,
+      "camping": true,
+      "kidsplace": false,
+      "disco": false
+    }]
 },
 {
 "id": 4,
@@ -69,6 +65,15 @@
 "location": "Dessel",
 "data": "July 04 2021",
 "time": "09:00",
-"imagePath": "graspop.png"
+"imagePath": "graspop.png",
+  "facilities": [
+    {
+      "parking": true,
+      "food": false,
+      "wc": false,
+      "camping": true,
+      "kidsplace": false,
+      "disco": false
+    }]
 }
 ]}
