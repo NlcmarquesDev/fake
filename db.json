@@ -7,8 +7,40 @@
 "location": "Boom",
 "data": "July 16 & 17, 2021",
 "time": "09:00",
-"imagePath": "tommorow.png"
-},
+"imagePath": "tommorow.png",
+ "Parking": [{
+   "id": 1,
+   "parkingnaam": "p1",
+   "parkingplaats": 200
+ },
+   {
+     "id": 2,
+     "parkingnaam": "p2",
+     "parkingplaats": 300
+   },
+   {
+     "id": 3,
+     "parkingnaam": "p3",
+     "parkingplaats": 150
+   }
+ ],
+  "Food": [{
+    "id": 1,
+    "cuisine" : "italian"
+  },
+    {
+      "id": 2,
+      "cuisine" : "american"
+    },
+    {
+      "id": 3,
+      "cuisine" : "mediterraan"
+    },
+    {
+      "id": 4,
+      "cusine" : "chinisse"
+    }
+  ],
 {
 "id": 2,
 "category": "concert",
