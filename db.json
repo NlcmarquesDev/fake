@@ -7,7 +7,7 @@
     "location": "Boom",
     "data": "July 16 & 17, 2021",
     "time": "09:00",
-    "imagePath": "tommorow.png",
+    "imagePath": "tomorrowland.png",
     "facilities": [
       {
         "parking": true,
@@ -27,7 +27,7 @@
 "location": "Werchter",
 "data": "July 4, 2021",
 "time": "09:00",
-"imagePath": "festival.png",
+"imagePath": "rockwerchter.png",
   "facilities": [
     {
       "parking": false,
